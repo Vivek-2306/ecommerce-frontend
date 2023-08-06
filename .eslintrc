@@ -1,0 +1,42 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": [
+		"standard-with-typescript",
+		"plugin:react/recommended",
+		"prettier"
+	],
+
+	"parserOptions": {
+		"sourceType": "module",
+		"allowImportExportEverywhere": false,
+		"codeFrame": false,
+		"ecmaVersion": "latest",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"plugins": ["react"],
+	"rules": {
+		// "indent": [
+		// 	"error",
+		// 	2,
+		// 	{
+		// 		"SwitchCase": 1
+		// 	}
+		// ],
+		// "max-len": [
+		// 	"error",
+		// 	{
+		// 		"code": 100
+		// 	}
+		// ],
+		// "prefer-promise-reject-errors": ["off"],
+		// "react/jsx-filename-extension": ["off"],
+		// "react/prop-types": [0],
+		// "no-return-assign": ["off"],
+		// "no-multi-spaces": "error"
+	}
+}
